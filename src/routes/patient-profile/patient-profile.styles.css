@@ -1,0 +1,42 @@
+.patient-profile-table {
+  display: block;
+  margin-bottom: 100px;
+  width: 50%;
+}
+
+.patient-profile-form {
+  display: block;
+}
+
+.patient-profile-table thead tr {
+  font-weight: bold;
+}
+
+.patient-profile-table td {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.patient-profile-table table {
+  margin: 0 130px;
+}
+
+.change-password-btn {
+  margin-left: 5%;
+  /* transform: translateX(-50%); */
+  width: auto;
+  height: 34px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #27a327;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+}
